@@ -1,16 +1,22 @@
-<h1>Listing Articles</h1>
-
+<h1>Listing articles</h1>
+ <%= link_to 'New article', new_article_path %>
 <table>
   <tr>
+    <th>CategoryId</th>
     <th>Title</th>
     <th>Text</th>
+    <th>Description</th>
+    <th>PublishedAt</th>
     <th colspan="3"></th>
   </tr>
  
   <% @articles.each do |article| %>
     <tr>
+      <td><%= article.category_id %></td>
       <td><%= article.title %></td>
       <td><%= article.text %></td>
+      <td><%= article.description %></td>
+      <td><%= article.published_at %></td>
       <td><%= link_to 'Show', article_path(article) %></td>
       <td><%= link_to 'Edit', edit_article_path(article) %></td>
       <td><%= link_to 'Destroy', article_path(article),
