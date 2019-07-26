@@ -1,0 +1,19 @@
+current directory: /home/akshay/Downloads/blog/vendor/bundle/gems/byebug-11.0.1/ext/byebug
+/home/akshay/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20190720-14000-vyphxd.rb extconf.rb
+creating Makefile
+
+current directory: /home/akshay/Downloads/blog/vendor/bundle/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /home/akshay/Downloads/blog/vendor/bundle/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/akshay/Downloads/blog/vendor/bundle/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20190720-14000-1klr2y2/byebug

@@ -1,0 +1,5 @@
+current directory: /home/akshay/Downloads/blog/vendor/bundle/gems/childprocess-1.0.1/ext
+/home/akshay/.rbenv/versions/2.5.1/bin/ruby mkrf_conf.rb
+
+current directory: /home/akshay/Downloads/blog/vendor/bundle/gems/childprocess-1.0.1/ext
+/home/akshay/.rbenv/versions/2.5.1/bin/ruby -rrubygems /home/akshay/Downloads/blog/vendor/bundle/gems/rake-12.3.2/exe/rake RUBYARCHDIR=/home/akshay/Downloads/blog/vendor/bundle/extensions/x86_64-linux/2.5.0-static/childprocess-1.0.1 RUBYLIBDIR=/home/akshay/Downloads/blog/vendor/bundle/extensions/x86_64-linux/2.5.0-static/childprocess-1.0.1
