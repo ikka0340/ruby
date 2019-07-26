@@ -1,3 +1,8 @@
+
+<p>
+  <strong>Category ID:</strong>
+  <%= @article.category_id %>
+</p>
 <p>
   <strong>Title:</strong>
   <%= @article.title %>
@@ -7,13 +12,20 @@
   <strong>Text:</strong>
   <%= @article.text %>
 </p>
-
-
+<p>
+  <strong>Published At:</strong>
+  <%= @article.published_at %>
+</p>
+<p>
+  <strong>Description:</strong>
+  <%= @article.description %>
+</p>
+ 
 <h2>Comments</h2>
 <%= render @article.comments %>
-
+ 
 <h2>Add a comment:</h2>
 <%= render 'comments/form' %>
-
+ 
 <%= link_to 'Edit', edit_article_path(@article) %> |
 <%= link_to 'Back', articles_path %>

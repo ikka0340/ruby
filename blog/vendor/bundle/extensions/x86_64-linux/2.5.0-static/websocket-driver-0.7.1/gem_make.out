@@ -1,0 +1,15 @@
+current directory: /home/akshay/Downloads/blog/vendor/bundle/gems/websocket-driver-0.7.1/ext/websocket-driver
+/home/akshay/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20190720-14000-187jmwl.rb extconf.rb
+creating Makefile
+
+current directory: /home/akshay/Downloads/blog/vendor/bundle/gems/websocket-driver-0.7.1/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /home/akshay/Downloads/blog/vendor/bundle/gems/websocket-driver-0.7.1/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/akshay/Downloads/blog/vendor/bundle/gems/websocket-driver-0.7.1/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20190720-14000-1lgzz6w
